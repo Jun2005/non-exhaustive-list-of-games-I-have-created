@@ -23,6 +23,7 @@ State: Incomplete
 <img width="315" height="250" alt="Coverimage" src="https://github.com/user-attachments/assets/57a5a6ad-37e1-4a9a-984f-e1feec86b7a6" />
 <img width="1920" height="1080" alt="unknown" src="https://github.com/user-attachments/assets/49e87a64-dfff-421a-8681-6df7eadb1592" />
 
-This game was created in a week for a game jam (an event where people gather to make games from scratch within a set time limit)
+This game was created in a week for a game jam (an event where people gather to make games from scratch within a set time limit). The premise is to keep the population happy by controlling the weather using your mouse.
+The game can be played through this link (https://junbo.itch.io/climatemanager).
 
 State: Completed
