@@ -49,7 +49,15 @@ The upgrades include:
 - Smooth swipe controls
 
 ### Challenges:
-I wanted to create a modular upgrade system that is easily scalable and manageable. Simply creating an upgrade script that handled the logic for each individual upgrade will quickly become difficult to debug and extend. By utilizing scriptable objects, I can state what every upgrade needs to define and save them in the project folder to be used by the upgrade script. The upgrade script uses the data in the scriptable object to display and apply the upgrade without having to know what the upgrade actually does.
+I wanted to create a modular upgrade system that is easily scalable and manageable. Simply creating an upgrade script that handled the logic for each individual upgrade will quickly become difficult to debug and extend. By utilizing scriptable objects, I can state what every upgrade needs to define and save them in the project folder to be used by several scripts.
+
+Things to define in an upgrade:
+- Name
+- Description
+- Sprite
+- Function to apply
+
+Doing this separated the implementation of each upgrade from other scripts that made the system much cleaner and easier to handle.
 
 ### Game engine: Unity
 ### State: Incomplete prototype
@@ -58,7 +66,16 @@ I wanted to create a modular upgrade system that is easily scalable and manageab
 <img width="315" height="250" alt="Coverimage" src="https://github.com/user-attachments/assets/57a5a6ad-37e1-4a9a-984f-e1feec86b7a6" />
 <img width="1920" height="1080" alt="unknown" src="https://github.com/user-attachments/assets/49e87a64-dfff-421a-8681-6df7eadb1592" />
 
-This game was created in a week for a game jam (an event where people gather to make games from scratch within a set time limit). The premise is to keep the population happy by controlling the weather using your mouse.
+### Description:
+This game was created in a week for a game jam (an event where people gather to make games from scratch within a set time limit). The premise is to keep the population happy by controlling the weather using your mouse. Throughout the game, requests for certain weather will pop up. For example, rainy, sunny, windy, or snowy. You need to fulfil those requests to keep the satisfaction meter high. Once it hits 0%, the game is over.
 The game can be played through this link (https://junbo.itch.io/climatemanager).
 
-State: Completed
+### Features:
+- Cloud mechanic: By hovering the sun over water, clouds will appear that can be moved around using the mouse. These clouds are essential in fulfilling certain requests, such as cloudy, rainy, or snowy. Having the sun close to the cloud turns it into a rain cloud, and having it away turns it into a snow cloud.
+- To increase the difficulty, satisfaction will start to deplete more quickly, and wind will blow occasionally to push clouds into undesirable locations.
+
+### Challenges:
+Since this was a game jam, I only had 2 weeks to complete the game, so time had to be managed wisely. After brainstorming ideas, I noted down things I needed to complete on Trello to prioritize tasks required for a minimum viable product. By doing this, I was able to stay on track, avoid scope creep, and complete the game on time. There are still many rooms for improvement, as the game lacked a proper tutorial and contained no audio.
+
+### Game engine: Unity
+### State: Completed
