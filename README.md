@@ -67,11 +67,11 @@ Doing this separated the implementation of each upgrade from other scripts that 
 <img width="1920" height="1080" alt="unknown" src="https://github.com/user-attachments/assets/49e87a64-dfff-421a-8681-6df7eadb1592" />
 
 ### Description:
-This game was created in a week for a game jam (an event where people gather to make games from scratch within a set time limit). The premise is to keep the population happy by controlling the weather using your mouse. Throughout the game, requests for certain weather will pop up. For example, rainy, sunny, windy, or snowy. You need to fulfil those requests to keep the satisfaction meter high. Once it hits 0%, the game is over.
+This game was created in 2 weeks for a game jam (an event where people gather to make games from scratch within a set time limit). The premise is to keep the population happy by controlling the weather using your mouse. Throughout the game, requests for certain weather will pop up. For example, rainy, sunny, windy, or snowy. You need to fulfil those requests to keep the satisfaction meter high. Once it hits 0%, the game is over.
 The game can be played through this link (https://junbo.itch.io/climatemanager).
 
 ### Features:
-- Cloud mechanic: By hovering the sun over water, clouds will appear that can be moved around using the mouse. These clouds are essential in fulfilling certain requests, such as cloudy, rainy, or snowy. Having the sun close to the cloud turns it into a rain cloud, and having it away turns it into a snow cloud.
+- Cloud mechanic: By hovering the sun over water, clouds will appear that can be moved around using the mouse. These clouds are essential in fulfilling certain requests, such as rainy or snowy. Having the sun close to the cloud turns it into a rain cloud, and having it away turns it into a snow cloud.
 - To increase the difficulty, satisfaction will start to deplete more quickly, and wind will blow occasionally to push clouds into undesirable locations.
 
 ### Challenges:
